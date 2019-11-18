@@ -1,0 +1,20 @@
+.navbar-custom, .navbar-custom::before {
+    background-image: none !important;
+    opacity: 1;
+}
+
+/*.navbar-custom:hover, .navbar-custom::after{
+  background-image: none !important;
+  background-color: white;
+  transition: opacity .15s linear .1s;
+  -webkit-transition: opacity .15s linear .1s;
+}
+*/
+.logo-style {
+  padding-left: 80px;
+  padding-top: 15px
+}
+
+#header {
+  background-color: #e6e0ca;
+}
