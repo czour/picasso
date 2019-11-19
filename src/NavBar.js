@@ -7,7 +7,7 @@ import Img from './img/logo.png'
 function NavBar() {
   return (
 
-    <Navbar className="navbar-custom" sticky="top">
+    <Navbar className="navbar-custom">
     <Navbar.Brand href="#home"><img
     src={Img}
     className="d-inline-block align-top logo-style"
@@ -34,7 +34,7 @@ function NavBar() {
       </Form>
     </Navbar.Collapse>
   </Navbar>
-  
+
 );
 }
 
