@@ -1,8 +1,11 @@
-.navbar-custom, .navbar-custom::before {
+.navbar-custom, .navbar-custom::before{
     background-image: none !important;
     opacity: 1;
     position: sticky;
     top: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    align-content: center;
 }
 
 /*.navbar-custom:hover, .navbar-custom::after{
@@ -15,6 +18,10 @@
 .logo-style {
   padding-left: 70px;
   padding-top: 15px;
+}
+
+.item-padding NavDropdown Nav.Link {
+  padding: 0px 150px 0px 150px;
 }
 
 #header {

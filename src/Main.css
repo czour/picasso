@@ -41,7 +41,7 @@
   float: right;
   font-size: 75px;
   width: 70%;
-  padding-left: 400px;
+  padding-right: 200px;
 }
 
 .section-right p{
@@ -49,7 +49,7 @@
   float: right;
   width: 58%;
   float: none;
-  margin: 35px 0px 50px 75px;
+  margin: 34px 0px 50px 75px;
   font-family: 'Raleway', sans-serif;
   font-weight: lighter;
   font-size: 23px;
@@ -57,7 +57,7 @@
 
 .section-right img{
   float: left;
-  margin-right: 18px;
+  margin-right: 5px;
   margin-left: 75px;
   margin-top: 25px;
 }
@@ -71,5 +71,9 @@
 }
 
 #green {
-  background-color: #DEE6CA;
+  background-color: #cae6d2;
+}
+
+#magenta {
+  background-color: #e6cade;
 }
