@@ -2,6 +2,7 @@ import React from 'react';
 //import logo from './logo.svg';
 import './Main.css';
 import NavBar from './NavBar.js';
+import Footer from './Footer.js';
 import Img from "./img/printer.png"
 import Img2 from "./img/manufacturing.png"
 import Img3 from "./img/retro.png"
@@ -50,6 +51,7 @@ function Main() {
       alt="printer"
       />
     </div>
+    <Footer />
     </div> //######DEE6CA######
   );
 }
