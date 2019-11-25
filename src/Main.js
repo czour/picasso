@@ -9,9 +9,10 @@ import Img3 from "./img/retro.png"
 
 function Main() {
   return (
-    <div>
+    <div className="wrapper">
     <NavBar />
-    <div className="section-left" id="tan">
+    <div id="tan">
+    <div className="section-left">
       <h1>Quality Printing. Legendary Service.</h1>
       <p>
       We are Picasso Brothers, your full-service printer. Specializing in a wide range of advertising specialties and corporate identity pieces, we are proud to serve Norcross and beyond. To place an order or get help with a new project, enter our online Customer Service Center. To download useful software and find helpful information, search our Resources & Support area.
@@ -19,7 +20,8 @@ function Main() {
       An easy-to-use pulldown menu, search engine, and link to our contact form appear on each page. As well, feel free to consult the site map at any time if you're having trouble locating a particular item. If there's anything we can do to improve our site, please let us know.
       Enjoy your visit!
       </p>
-      <img src={Img} height="309" width="320" alt="printer"/>
+      <img src={Img} style={{marginTop:'0px',}} alt="printer"/>
+    </div>
     </div>
     <div className="section-right" id="white">
       <h1>Let's Bring Your Best Ideas to Life.</h1>
@@ -31,12 +33,13 @@ function Main() {
       <img
       src={Img3}
       className="d-inline-block align-top"
-      height="309"
-      width="320"
+      style={{marginTop:'-170px',}}
       alt="printer"
       />
+      <button type="button">Place An Order</button>
     </div>
-    <div className="section-left" id="green">
+    <div id="green">
+    <div className="section-left">
       <h1>Your brainchild is our inspiration.</h1>
       <p>
       Let us combine our printing and marketing expertise with the service necessary
@@ -46,10 +49,11 @@ function Main() {
       <img
       src={Img2}
       className="d-inline-block align-top"
-      height="309"
-      width="320"
+      style={{marginTop:'-200px',}}
       alt="printer"
       />
+      <button type="button">Get A Quote</button>
+    </div>
     </div>
     <Footer />
     </div> //######DEE6CA######
